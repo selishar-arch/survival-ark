@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0b0f14">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Ark">
+<meta name="description" content="Offline survival guide with on-device AI, maps, first aid, and hurricane prep.">
+<title>Ark Offline: Survival Guide</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="stylesheet" href="assets/main.css">
+<link rel="stylesheet" href="assets/maplibre-gl.css">
+<script>window.ARK_VERSION="4d93fd85d8"</script></head>
+<body>
+<div id="net" hidden></div>
+<main id="view"><p style="padding:20px">Loading…</p></main>
+<div id="mapview" hidden></div>
+<nav class="tabs">
+  <a href="#/guides" data-tab="guides"><span>📖</span>Guides</a>
+  <a href="#/ask" data-tab="ask"><span>💬</span>Ask AI</a>
+  <a href="#/map" data-tab="map"><span>🗺️</span>Map</a>
+  <a href="#/tools" data-tab="tools"><span>🧰</span>Tools</a>
+  <a href="#/plan" data-tab="plan"><span>📋</span>Plan</a>
+</nav>
+<script type="module" src="assets/main.js"></script>
+</body>
+</html>
